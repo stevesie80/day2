@@ -1,0 +1,29 @@
+.col-xs-12 {
+  height: 50px;
+  background: #e40007;
+}
+
+#main {
+  background: #e7e7e7;
+  border: 2px solid #000;
+  height: 100px;
+}
+
+#sidebar {
+  background: #fff;
+  border: 2px solid #000;
+  height: 100px;
+}
+
+.col-md-1 {
+  background: #000;
+  border: 2px solid #fff;
+  color: #fff;
+  height: 300px;
+}
+
+/*SUB CONTENT*/
+#sub-content {
+  height: 25px;
+  background: yellow;
+}
