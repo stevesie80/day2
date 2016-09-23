@@ -1,29 +1,48 @@
-.col-xs-12 {
-  height: 50px;
-  background: #e40007;
-}
-
-#main {
-  background: #e7e7e7;
-  border: 2px solid #000;
-  height: 100px;
-}
-
-#sidebar {
-  background: #fff;
-  border: 2px solid #000;
-  height: 100px;
-}
-
-.col-md-1 {
-  background: #000;
-  border: 2px solid #fff;
-  color: #fff;
-  height: 300px;
-}
-
-/*SUB CONTENT*/
-#sub-content {
-  height: 25px;
+body {
   background: yellow;
+}
+
+.container {
+  padding: 15px 5px 10px;
+}
+
+.header {
+  background: blue;
+  padding: inherit;
+  height: 150px;
+  border: 2px solid #000;
+}
+
+.nav {
+  background: green;
+  padding: inherit;
+  border: 2px solid #000;
+}
+
+.content {
+  background: red;
+  padding: inherit;
+  height: 200px;
+  border: 2px solid #000;
+}
+
+.aside {
+  background: aqua;
+  padding: inherit;
+  height: 200px;
+  border: 2px solid #000;
+}
+
+.promo {
+  background: orange;
+  padding: inherit;
+  height: 150px;
+  border: 2px solid #000;
+}
+
+.footer {
+  background: #000;
+  padding: inherit;
+  color: #fff;
+  border: 2px solid #000;
 }
