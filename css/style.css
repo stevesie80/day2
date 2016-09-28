@@ -46,3 +46,21 @@ body {
   color: #fff;
   border: 2px solid #000;
 }
+
+@media screen and (max-width: 768px) {
+  .header, .nav, .content, .aside, .promo, .footer {
+    background: purple;
+  }
+  body {
+    background: white;
+    }
+}
+
+@media screen and (max-width: 375px) {
+  .header, .nav, .content, .aside, .promo, .footer {
+    background: pink;
+  }
+  body {
+    background: black;
+    }
+}
